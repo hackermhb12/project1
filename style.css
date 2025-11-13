@@ -1,0 +1,96 @@
+/* style.css */
+
+/* General page styling */
+body {
+  background-color: #05111b;
+  font-family: Arial, sans-serif;
+  color: #00ff2a;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Navigation bar */
+nav {
+  background-color: #0b1f2d;
+  padding: 15px 20px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 15px;
+}
+
+nav ul li a {
+  color: #00ff2a;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #00cc22;
+}
+
+/* Headings */
+h1, h2 {
+  text-align: center;
+  color: #00ff2a;
+  margin: 30px 0 20px;
+}
+
+/* Form container */
+form {
+  background-color: #0b1f2d;
+  border-radius: 10px;
+  padding: 30px;
+  max-width: 500px;
+  margin: auto;
+  color: #00ff2a;
+  box-shadow: 0 0 20px rgba(0, 255, 42, 0.4);
+}
+
+/* Input groups */
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #00ff2a;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #00ff2a;
+  border-radius: 5px;
+  background-color: #05111b;
+  color: #00ff2a;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+input:focus {
+  outline: none;
+  border-color: #00cc22;
+  box-shadow: 0 0 5px #00ff2a55;
+}
+
+/* Buttons */
+button[type="submit"] {
+  width: 100%;
+  background-color: #00ff2a;
+  color: #0b1f2d;
+  border: none;
+  padding: 12px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+  background-color: #00cc22;
+}
